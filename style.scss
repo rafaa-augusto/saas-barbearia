@@ -8,6 +8,7 @@
 
 @import "partials/colors.scss";
 @import "partials/header.scss";
+@import "partials/layout.scss";
 
 body{
     font-family: 'Sora', sans-serif;
@@ -30,7 +31,7 @@ svg{
 }
 
 img{
-    
+    width: 100%
 
 }
 
