@@ -4,6 +4,8 @@ Sistema/landing page desenvolvido para uma barbearia, com foco em apresentar ser
 
 O projeto simula a interface de um SaaS para barbearias, podendo ser usado como base para sistemas de agendamento ou páginas institucionais.
 
+---
+
 🚀 Tecnologias utilizadas
 
 HTML
@@ -11,6 +13,8 @@ HTML
 CSS
 
 Sass
+
+---
 
 📂 Estrutura do projeto
 ```
@@ -35,7 +39,7 @@ SAAS-BARBEARIA
 ├── style.scss
 └── style.css
 ```
-
+---
 
 📌 Organização
 
@@ -46,6 +50,8 @@ partials/ → arquivos SCSS separados por responsabilidade (cores, layout, heade
 index.html → página principal
 
 style.scss → arquivo principal de estilos
+
+---
 
 🎯 Funcionalidades
 
@@ -59,6 +65,8 @@ Integração visual com contato via WhatsApp
 
 Estrutura escalável com SCSS
 
+---
+
 💻 Como executar o projeto
 
 1️⃣ Clone o repositório
@@ -71,10 +79,13 @@ index.html
 
 em qualquer navegador.
 
+---
+
 📸 Preview
 
 ![Preview](assets/preview.png)
 
+---
 
 📌 Possíveis melhorias
 
@@ -88,5 +99,5 @@ Backend com Node.js
 
 👨‍💻 Autor
 
-Desenvolvido por Rafael
-Estudante de Análise e Desenvolvimento de Sistemas.
+Desenvolvido por Rafael Augusto
+
