@@ -16,23 +16,25 @@ Sass
 SAAS-BARBEARIA
 │
 ├── assets
-│   ├── bg.svg
-│   ├── corte1.png
-│   ├── corte2.png
-│   ├── corte3.png
-│   ├── images.svg
-│   ├── logo.svg
-│   ├── logo-black.svg
-│   └── whatsapp.svg
+│ ├── bg.svg
+│ ├── corte1.png
+│ ├── corte2.png
+│ ├── corte3.png
+│ ├── images.svg
+│ ├── logo.svg
+│ ├── logo-black.svg
+│ └── whatsapp.svg
 │
 ├── partials
-│   ├── colors.scss
-│   ├── header.scss
-│   └── layout.scss
+│ ├── colors.scss
+│ ├── header.scss
+│ └── layout.scss
 │
 ├── index.html
 ├── style.scss
 └── style.css
+
+
 📌 Organização
 
 assets/ → imagens e ícones utilizados no site
@@ -69,7 +71,7 @@ em qualquer navegador.
 
 📸 Preview
 
-/assets/preview.png
+![Preview](assets/preview.png)
 
 
 📌 Possíveis melhorias
