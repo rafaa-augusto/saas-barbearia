@@ -147,3 +147,157 @@
 
     
 }
+
+// Fim about
+
+// services
+
+.services{
+    background-color: $white-normal;
+    color: $black-normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 14px;
+
+}
+
+.services-content h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 14px;
+
+}
+
+.services-content p{
+    line-height: 150%;
+    margin-top: 14px;
+    text-align: center;
+    max-width: 780px;
+
+}
+
+.haircut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 0 44px 34px 44px;
+
+}
+
+
+.haircut{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: $white-normal;
+    border-radius: 8px;
+    box-shadow: 0 -1px 17px -4px rgba(0, 0, 0, 0.5);
+
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        max-width: 354px;
+        transition: transform 0.2s ;
+    }
+}
+
+.haircut img:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.haircut-info{
+    padding: 14px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: $white-normal;
+   z-index: 99;
+}
+
+.haircut-info button{
+    color:$white-normal;
+    background-color: $red-normal;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 0;
+    cursor: default;
+}
+
+@media screen and (max-width: 768px){
+    .haircut{
+        flex-direction: column;
+    }
+}
+
+//footer
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 54px 0 ;
+    gap: 24px;
+    color: $white-normal;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 8px;
+    color: $white-normal;
+}
+
+//botão whatsapp
+
+.btn-whatssapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+
+    img{
+        max-width: 74px;
+        transition: transform 0.2s;
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+
+.btn-whatssapp .tootip-text{
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    top: 8px;
+    left: -144px;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+
+    background-color: $black-normal;
+    color: $white-normal;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.btn-whatssapp:hover .tootip-text{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px){
+    .btn-whatssapp{
+        img{
+            max-width: 64px;
+        }
+    }
+    
+    
+}
